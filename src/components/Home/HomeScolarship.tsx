@@ -7,7 +7,7 @@ const checkIcon = (
   </svg>
 );
 
-const AboutSectionOne = () => {
+const HomeScolarship = () => {
   const List = ({ text }) => (
     <p className="text-body-color mb-5 flex items-center text-lg font-medium">
       <span className="bg-primary/10 text-primary mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md">
@@ -18,13 +18,13 @@ const AboutSectionOne = () => {
   );
 
   return (
-    <section id="about" className="pt-16 md:pt-20 lg:pt-28">
+    <section id="homeScolarship" className="pt-16 md:pt-20 lg:pt-28">
       <div className="container">
         <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Why Choose Keeron Study Abroad?"
+                title="Scholarship Types We Assist With"
                 paragraph=""
                 mb="44px"
               />
@@ -34,15 +34,15 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Backed by The Daily Star – credibility you can trust" />
-                    <List text="Access to upskilling courses + IELTS preparation & mock tests" />
-                    <List text="Guidance from industry experts & mentors" />
+                    <List text="Merit-Based Scholarships – awarded for academic excellence" />
+                    <List text="Need-Based Scholarships – financial support for deserving students" />
+                    <List text="Country-Specific Scholarships – Chevening (UK), DAAD (Germany), Erasmus+ (EU)" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Partnerships with global universities" />
-                    <List text="100% free for students – universities pay, not you" />
-                    <List text="End-to-end support: From course selection → visa → departure → post-arrival" />
+                    <List text="University-Specific Scholarships – partial or full tuition waivers from partners" />
+                    <List text="Research & STEM Grants – for postgraduate and PhD students" />
+                    {/* <List text="End-to-end support: From course selection → visa → departure → post-arrival" /> */}
                   </div>
                 </div>
               </div>
@@ -71,4 +71,4 @@ const AboutSectionOne = () => {
   );
 };
 
-export default AboutSectionOne;
+export default HomeScolarship;

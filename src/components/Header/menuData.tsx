@@ -27,6 +27,61 @@ const menuData: Menu[] = [
   },
   {
     id: 4,
+    title: "Study Destinations",
+    newTab: false,
+    submenu: [
+      {
+        id: 51,
+        title: "USA",
+        path: "/study-destination/usa",
+        newTab: false,
+      },
+      {
+        id: 52,
+        title: "UK",
+        path: "/study-destination/uk",
+        newTab: false,
+      },
+      {
+        id: 53,
+        title: "Australia",
+        path: "/study-destination/australia",
+        newTab: false,
+      },
+      {
+        id: 54,
+        title: "Canada",
+        path: "/study-destination/canada",
+        newTab: false,
+      },
+      {
+        id: 55,
+        title: "Malaysia",
+        path: "/study-destination/malaysia",
+        newTab: false,
+      },
+      {
+        id: 56,
+        title: "New Zealand",
+        path: "/study-destination/newzealand",
+        newTab: false,
+      },
+      {
+        id: 57,
+        title: "France",
+        path: "/study-destination/france",
+        newTab: false,
+      },
+      {
+        id: 58,
+        title: "Germany",
+        path: "/study-destination/germany",
+        newTab: false,
+      },
+    ],
+  },
+  {
+    id: 5,
     title: "Pages",
     newTab: false,
     submenu: [

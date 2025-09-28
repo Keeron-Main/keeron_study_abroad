@@ -1,9 +1,15 @@
 import Image from "next/image";
+import SectionTitle from "../Common/SectionTitle";
 
 const AboutSectionTwo = () => {
   return (
     <section className="py-16 md:py-20 lg:py-28">
       <div className="container">
+        <SectionTitle
+          title="How It Works (Student Journey)"
+          paragraph=""
+          mb="44px"
+        />
         <div className="-mx-4 flex flex-wrap items-center">
           <div className="w-full px-4 lg:w-1/2">
             <div
@@ -28,29 +34,44 @@ const AboutSectionTwo = () => {
             <div className="max-w-[470px]">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Bug free code
+                  Counselling
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Get expert advice on country, course & scholarships
                 </p>
               </div>
-              <div className="mb-9">
+              <div className="mb-7">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Premier support
+                  Application
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt.
+                  We prepare & submit your application to universities
                 </p>
               </div>
-              <div className="mb-1">
+              <div className="mb-7">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Next.js
+                  Visa
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt
-                  consectetur adipiscing elit setim.
+                  Full guidance on visa documents & interview prep
+                </p>
+              </div>
+
+              <div className="mb-7">
+                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
+                  Departure
+                </h3>
+                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                  Support with travel, health insurance & money transfer
+                </p>
+              </div>
+
+              <div className="mb-7">
+                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
+                  Post
+                </h3>
+                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                  arrival Support – Stay connected with alumni & Keeron global community
                 </p>
               </div>
             </div>
