@@ -63,7 +63,7 @@ const AustraliaPage = () => {
 
                                     <ul className="text-body-color mb-10 list-inside list-disc">
                                         <li className="text-body-color mb-2 text-base font-medium sm:text-lg lg:text-base xl:text-lg">
-                                            Australia Awards Scholarships: Long-term awards administered by the Department of Foreign Affairs and Trade, aimed at contributing to the development needs of Australia's partner countries.
+                                            Australia Awards Scholarships: Long-term awards administered by the Department of Foreign Affairs and Trade, aimed at contributing to the development needs of Australia&apos;s partner countries.
                                         </li>
                                         <li className="text-body-color mb-2 text-base font-medium sm:text-lg lg:text-base xl:text-lg">
                                             Research Training Program (RTP): Scholarships for international students undertaking research-based postgraduate degrees.
@@ -83,7 +83,7 @@ const AustraliaPage = () => {
                                     </h3>
                                     <p className="text-body-color mb-10 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                                         The cost of living in Australia varies depending on the city and lifestyle choices. On average, international students should budget between AUD 1,400 to AUD 2,500 per month for living expenses, including accommodation, food, transportation, and other essentials.
-                                        Australia's diverse culture, vibrant cities, and natural beauty offer students a rich and fulfilling experience both inside and outside the classroom. From the bustling streets of Sydney to the serene landscapes of Tasmania, there's something for everyone.
+                                        Australia&apos;s diverse culture, vibrant cities, and natural beauty offer students a rich and fulfilling experience both inside and outside the classroom. From the bustling streets of Sydney to the serene landscapes of Tasmania, there&apos;s something for everyone.
 
                                     </p>
 

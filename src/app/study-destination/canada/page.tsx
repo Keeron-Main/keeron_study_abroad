@@ -58,7 +58,7 @@ const CanadaPage = () => {
                                         Scholarships & funding options
                                     </h3>
                                     <p className="text-body-color mb-10 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                                        International students have access to a variety of scholarships and funding options to support their studies in Canada. These include government-funded scholarships, university-specific awards, and external funding opportunities. For a comprehensive list of available scholarships, visit EduCanada's scholarship portal.
+                                        International students have access to a variety of scholarships and funding options to support their studies in Canada. These include government-funded scholarships, university-specific awards, and external funding opportunities. For a comprehensive list of available scholarships, visit EduCanada&apos;s scholarship portal.
                                     </p>
 
 
@@ -67,7 +67,7 @@ const CanadaPage = () => {
                                     </h3>
                                     <p className="text-body-color mb-10 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                                         The cost of living in Canada varies depending on the city and lifestyle choices. On average, international students can expect to spend between CAD 1,000 to CAD 1,500 per month on living expenses, covering rent, transportation, groceries, and other utilities.
-                                        Canada's diverse culture, vibrant cities, and natural beauty offer students a rich and fulfilling experience both inside and outside the classroom.
+                                        Canada&apos;s diverse culture, vibrant cities, and natural beauty offer students a rich and fulfilling experience both inside and outside the classroom.
 
                                     </p>
 

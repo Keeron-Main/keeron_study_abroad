@@ -36,7 +36,7 @@ const MalaysiaPage = () => {
                                         </div>
                                     </div>
                                     <p className="text-body-color mb-8 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                                        Malaysia is an increasingly popular destination for international students, offering a unique blend of quality education, cultural diversity, and affordability. With over 130,000 international students choosing Malaysian universities each year, it's clear that Malaysia is more than just a beautiful travel destination; it's also a smart choice for higher education.
+                                        Malaysia is an increasingly popular destination for international students, offering a unique blend of quality education, cultural diversity, and affordability. With over 130,000 international students choosing Malaysian universities each year, it&apos;s clear that Malaysia is more than just a beautiful travel destination; it&apos;s also a smart choice for higher education.
                                     </p>
                                     {/* <p className="text-body-color mb-10 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                                         Semper auctor neque vitae tempus quam pellentesque nec.
@@ -51,7 +51,7 @@ const MalaysiaPage = () => {
                                         Career opportunities after graduation
                                     </h3>
                                     <p className="text-body-color mb-10 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                                        Malaysia's dynamic economy and continuous growth provide promising job opportunities for international graduates. The country has various blooming industries, such as healthcare, IT, finance, and banking, which offer diverse job options.
+                                        Malaysia&apos;s dynamic economy and continuous growth provide promising job opportunities for international graduates. The country has various blooming industries, such as healthcare, IT, finance, and banking, which offer diverse job options.
                                     </p>
 
                                     <h3 className="font-xl mb-10 leading-tight font-bold text-black sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight dark:text-white">
@@ -83,7 +83,7 @@ const MalaysiaPage = () => {
                                     </h3>
                                     <p className="text-body-color mb-10 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                                         The cost of living in Malaysia for international students is relatively affordable. On average, students can expect to spend between RM 1,500 to RM 2,500 per month, covering accommodation, food, transportation, and other essentials.
-                                        Malaysia's diverse culture, vibrant cities, and natural beauty offer students a rich and fulfilling experience both inside and outside the classroom. From the bustling streets of Kuala Lumpur to the serene landscapes of Langkawi, there's something for everyone.
+                                        Malaysia&apos;s diverse culture, vibrant cities, and natural beauty offer students a rich and fulfilling experience both inside and outside the classroom. From the bustling streets of Kuala Lumpur to the serene landscapes of Langkawi, there&apos;s something for everyone.
 
                                     </p>
 

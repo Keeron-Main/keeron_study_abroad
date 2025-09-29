@@ -36,7 +36,7 @@ const NewZealandPage = () => {
                                         </div>
                                     </div>
                                     <p className="text-body-color mb-8 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                                        New Zealand offers a unique blend of world-class education, stunning natural landscapes, and a welcoming atmosphere. All eight of the country's universities are ranked among the top 3% globally by QS World University Rankings, ensuring a high-quality academic experience.
+                                        New Zealand offers a unique blend of world-class education, stunning natural landscapes, and a welcoming atmosphere. All eight of the country&apos;s universities are ranked among the top 3% globally by QS World University Rankings, ensuring a high-quality academic experience.
                                         The education system emphasizes practical skills, critical thinking, and research, preparing students for successful careers. With a strong focus on innovation and sustainability, New Zealand is an ideal place for students seeking a forward-thinking education.
 
                                     </p>
@@ -53,9 +53,9 @@ const NewZealandPage = () => {
                                         Career opportunities after graduation
                                     </h3>
                                     <p className="text-body-color mb-10 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                                        New Zealand's Post Study Work Visa allows international graduates to stay and work for up to three years, depending on their qualification level and where they studied.
+                                        New Zealand&apos;s Post Study Work Visa allows international graduates to stay and work for up to three years, depending on their qualification level and where they studied.
                                         This policy provides graduates with valuable opportunities to gain work experience and potentially transition to permanent residency.
-                                        The country's strong economy and demand for skilled professionals in sectors like IT, engineering, healthcare, and agriculture further enhance career prospects for international graduates.
+                                        The country&apos;s strong economy and demand for skilled professionals in sectors like IT, engineering, healthcare, and agriculture further enhance career prospects for international graduates.
 
                                     </p>
 
@@ -98,7 +98,7 @@ const NewZealandPage = () => {
                                             Work opportunities: International students can work part-time (up to 20 hours per week) during the academic year and full-time during scheduled breaks.
                                         </li>
                                         <li className="text-body-color mb-2 text-base font-medium sm:text-lg lg:text-base xl:text-lg">
-                                            Cultural experiences: New Zealand boasts a rich cultural heritage, with Māori traditions influencing art, language, and festivals. The country's diverse population adds to the vibrant social fabric.
+                                            Cultural experiences: New Zealand boasts a rich cultural heritage, with Māori traditions influencing art, language, and festivals. The country&apos;s diverse population adds to the vibrant social fabric.
                                         </li>
 
                                     </ul>

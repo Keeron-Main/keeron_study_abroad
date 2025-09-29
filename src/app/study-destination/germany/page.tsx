@@ -37,7 +37,7 @@ const GermanyPage = () => {
                                     </div>
                                     <p className="text-body-color mb-8 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                                         Germany stands as a beacon of academic excellence, offering world-class education without the burden of tuition fees at public universities. Renowned for its strong emphasis on research, innovation, and practical learning, Germany attracts over 400,000 international students annually.
-                                        The country's rich cultural heritage, coupled with its modern infrastructure, provides a conducive environment for personal and academic growth.
+                                        The country&apos;s rich cultural heritage, coupled with its modern infrastructure, provides a conducive environment for personal and academic growth.
 
                                     </p>
                                     {/* <p className="text-body-color mb-10 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
@@ -53,7 +53,7 @@ const GermanyPage = () => {
                                         Career opportunities after graduation
                                     </h3>
                                     <p className="text-body-color mb-10 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                                        Germany's robust economy and demand for skilled professionals create abundant career opportunities for graduates. International students can benefit from an 18-month residence permit post-graduation to seek employment. The country's strong industrial sectors, including automotive, engineering, information technology, and healthcare, offer diverse job prospects. Proficiency in the German language enhances employability, although many companies also operate in English.
+                                        Germany&apos;s robust economy and demand for skilled professionals create abundant career opportunities for graduates. International students can benefit from an 18-month residence permit post-graduation to seek employment. The country&apos;s strong industrial sectors, including automotive, engineering, information technology, and healthcare, offer diverse job prospects. Proficiency in the German language enhances employability, although many companies also operate in English.
                                     </p>
 
                                     <h3 className="font-xl mb-10 leading-tight font-bold text-black sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight dark:text-white">

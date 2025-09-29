@@ -37,7 +37,7 @@ const FrancePage = () => {
                                     </div>
                                     <p className="text-body-color mb-8 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                                         France is a premier destination for international students, offering a rich blend of world-class education, cultural immersion, and vibrant student life. With over 400,000 international students, France ranks among the top study destinations globally.
-                                        French higher education institutions are renowned for their academic excellence, offering a wide range of programs across various fields. The country's rich cultural heritage, diverse landscapes, and dynamic cities provide an enriching environment for students.
+                                        French higher education institutions are renowned for their academic excellence, offering a wide range of programs across various fields. The country&apos;s rich cultural heritage, diverse landscapes, and dynamic cities provide an enriching environment for students.
 
                                     </p>
                                     {/* <p className="text-body-color mb-10 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
