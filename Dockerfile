@@ -1,13 +1,13 @@
-# Stage 1: Build stage
 FROM node:20-alpine AS builder
 
 # কাজের ডিরেক্টরি তৈরি
+
 WORKDIR /app
 
 # শুধু package ফাইলগুলো কপি করে dependency install
 COPY package*.json ./
 
-RUN npm ci
+RUN npm i --force
 
 # এখন পুরো প্রজেক্ট কপি
 COPY . .
@@ -34,7 +34,7 @@ COPY --from=builder /app/next.config.js ./
 COPY --from=builder /app/package.json ./
 
 # Next.js ডিফল্ট পোর্ট
-EXPOSE 3000
+EXPOSE 8113
 
 # Container start হলে এই কমান্ড চলবে
 CMD ["npm", "start"]
