@@ -1,0 +1,160 @@
+name: Web-Build and push at ACR
+
+on:
+  workflow_call:
+    inputs:
+      ENV_FILE:
+        required: true
+        type: string
+      VERSION:
+        required: false
+        type: string
+      CONTAINER_NAME:
+        required: true
+        type: string
+      NAMESPACE:
+        required: true
+        type: string
+      SERVICE_NAME:
+        required: true
+        type: string
+
+    secrets:
+      KEERON_GITHUB_PAT:
+        required: true
+      AWS_REGION:
+        required: true
+      AWS_CONTAINER_REGISTRY:
+        required: true
+      CLUSTER_NAME:
+        required: true
+      PROJECT_NAME:
+        required: true
+      AWS_ROLE:
+        required: true 
+      AWS_CLOUDFRONT_DISTRIBUTION_ID:
+        required: true 
+env:
+  SERVICE_TYPE: 'webclient'
+
+jobs:
+  integrateWeb:
+    permissions:
+      contents: read
+      id-token: write
+    runs-on: ubuntu-latest
+    steps:
+      #Checks out the repository this file is in
+      - uses: actions/checkout@v3
+        with:
+          submodules: 'true'
+          token: ${{ secrets.KEERON_GITHUB_PAT }}
+
+      - name: Update submodule
+        run: |
+          git submodule update --init
+
+      - name: Check Directories
+        run: |
+          ls -al
+
+      - name: Set Environment Variables
+        uses: ./.github/actions/setvars
+        with:
+          varFilePath: ./.github/variables/vars.env
+
+      - name: Set Versions
+        uses: ./.github/actions/setvars
+        with:
+          varFilePath: ./.github/variables/versions.env
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume:  ${{ secrets.AWS_ROLE }}
+          aws-region: ${{ secrets.AWS_REGION }}
+  
+      - name: Check and Create ECR Repository
+        id: ecr
+        run: |
+          REPOSITORY_NAME="${{ secrets.PROJECT_NAME }}/${{ inputs.CONTAINER_NAME }}" # Replace with your desired ECR repository name
+          REGION="${{ secrets.AWS_REGION }}" # Preferred AWS region
+  
+          # Check if repository exists
+          REPO_EXISTS=$(aws ecr describe-repositories --repository-names $REPOSITORY_NAME --region $REGION 2>/dev/null || echo "NOT_FOUND")
+  
+          if [ "$REPO_EXISTS" == "NOT_FOUND" ]; then
+            echo "ECR repository '$REPOSITORY_NAME' does not exist. Creating it..."
+            aws ecr create-repository --repository-name $REPOSITORY_NAME --region $REGION
+            echo "ECR repository '$REPOSITORY_NAME' created successfully."
+          else
+            echo "ECR repository '$REPOSITORY_NAME' already exists."
+          fi
+        
+
+      - name: Login to Amazon ECR
+        id: login-ecr
+        uses: aws-actions/amazon-ecr-login@v2
+
+      - name: Build, tag, and push docker image to Amazon ECR
+        run: |
+          docker build -t ${{ secrets.AWS_CONTAINER_REGISTRY }}/${{ secrets.PROJECT_NAME }}/${{ inputs.CONTAINER_NAME }}:${{ github.sha }} --file ${{ env.DOCKERFILE }} --build-arg ENV_FILE=${{ inputs.ENV_FILE }} .
+          docker push ${{ secrets.AWS_CONTAINER_REGISTRY }}/${{ secrets.PROJECT_NAME }}/${{ inputs.CONTAINER_NAME }}:${{ github.sha }}
+
+  deployWebToK8s:
+    permissions:
+      contents: read
+      id-token: write
+    runs-on: ubuntu-latest
+    needs: [integrateWeb]
+    steps:
+      #Checks out the repository this file is in
+      - uses: actions/checkout@v3
+        with:
+          submodules: 'true'
+          token: ${{ secrets.KEERON_GITHUB_PAT }}
+
+      - name: Update submodule
+        run: |
+          git submodule update --init
+
+      - name: Check Directories
+        run: |
+          ls -al
+
+      - name: Set Environment Variables
+        uses: ./.github/actions/setvars
+        with:
+          varFilePath: ./.github/variables/vars.env
+
+      - name: Set Versions
+        uses: ./.github/actions/setvars
+        with:
+          varFilePath: ./.github/variables/versions.env
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume:  ${{ secrets.AWS_ROLE }}
+          aws-region: ${{ secrets.AWS_REGION }}
+
+      - name: pull helm repo
+        uses: actions/checkout@v3
+        with:
+          repository: Keeron-Main/Keeron-Helm-Templates
+          token: ${{ secrets.KEERON_GITHUB_PAT }}
+
+      - name: Update kube config
+        run: aws eks update-kubeconfig --name ${{ secrets.CLUSTER_NAME }} --region ${{ secrets.AWS_REGION }}
+      
+      - name: Setup Helm Installer
+        uses: Azure/setup-helm@v3
+
+      - name: Deploy To Kubernetes
+        run: |
+          helm upgrade --install ${{inputs.CONTAINER_NAME}} ./next-templates/ecap3-${{env.SERVICE_TYPE}}/ \
+          --namespace=${{inputs.NAMESPACE}} \
+          --values ./${{ secrets.CLUSTER_NAME }}/${{inputs.SERVICE_NAME}}-webclient.values.yaml \
+          --set image.repository=${{ secrets.AWS_CONTAINER_REGISTRY }}/${{ secrets.PROJECT_NAME }}/${{ inputs.CONTAINER_NAME }} \
+          --set image.tag=${{ github.sha }} --set fullnameOverride=${{inputs.CONTAINER_NAME}} \
+          --set ingress.hosts[0].paths[0].path="/job_board/"
