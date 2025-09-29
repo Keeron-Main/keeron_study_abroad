@@ -15,7 +15,7 @@ const Contact = () => {
             >
               <SectionTitle
                 title="Call to Action"
-                paragraph="If you’re ready to explore your study abroad options, simply book your free consultation today. Let’s talk about where you want to study, what your goals are, and how Keeron Study Abroad can help you get there — step by step, together."
+                paragraph="If you&apos;re ready to explore your study abroad options, simply book your free consultation today. Let&apos;s talk about where you want to study, what your goals are, and how Keeron Study Abroad can help you get there — step by step, together."
                 center
               />
               {/* <h2 className="mb-3 text-2xl font-bold text-black dark:text-white sm:text-3xl lg:text-2xl xl:text-3xl">
@@ -72,18 +72,15 @@ const Contact = () => {
                       ></textarea>
                     </div>
                   </div> */}
-                  <div className="-mx-4 flex flex-wrap">
-                    <div className="w-full px-4">
-                      <button className="rounded-xs bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark">
-                        <a href="tel:+8801322890096">Call Us (+8801322890096)</a>
-                      </button>
-                    </div>
-                    <div className="w-full px-4">
-                      <button className="rounded-xs bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark">
-                        <a href="mailto:hello@keeron.com">Email Us (hello@keeron.com)</a>
-                      </button>
-                    </div>
-                  </div>
+
+                </div>
+                <div className="flex justify-center items-center mt-8 space-x-4">
+                  <button className="rounded-xs bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark">
+                    <a href="tel:+8801322890096">Call Us (+8801322890096)</a>
+                  </button>
+                  <button className="rounded-xs bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark">
+                    <a href="mailto:hello@keeron.com">Email Us (hello@keeron.com)</a>
+                  </button>
                 </div>
               </form>
             </div>
