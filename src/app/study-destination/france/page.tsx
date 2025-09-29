@@ -53,7 +53,7 @@ const FrancePage = () => {
                                         Career opportunities after graduation
                                     </h3>
                                     <p className="text-body-color mb-10 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                                        Graduates from French institutions enjoy strong employability prospects, both within France and internationally. The French government offers a "Recherche d’emploi - Création d’entreprise" (Job Search - Business Creation) residence permit, allowing graduates to stay in France for up to 12 months to seek employment or start a business.
+                                        Graduates from French institutions enjoy strong employability prospects, both within France and internationally. The French government offers a &quot;Recherche d’emploi - Création d’entreprise&quot; (Job Search - Business Creation) residence permit, allowing graduates to stay in France for up to 12 months to seek employment or start a business.
                                         France is home to numerous multinational companies in sectors such as technology, engineering, finance, and the arts, providing ample career opportunities for graduates.
 
                                     </p>
