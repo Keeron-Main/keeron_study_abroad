@@ -58,5 +58,4 @@ jobs:
       CLUSTER_NAME: ${{ secrets.KEERON_AWS_STG_CLUSTER_NAME }}
       PROJECT_NAME: ${{ secrets.KEERON_PROJECT_NAME }}
       AWS_ROLE: ${{ secrets.KEERON_AWS_CICD_ROLE }}
-      AWS_CLOUDFRONT_DISTRIBUTION_ID: ${{ secrets.KEERON_AWS_CLOUDFRONT_ID_STG }}
     needs: [initialization]
