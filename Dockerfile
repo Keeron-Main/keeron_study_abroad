@@ -1,18 +1,20 @@
-FROM node:20-alpine AS builder
 
-# কাজের ডিরেক্টরি তৈরি
+# Stage 1: Build stage
+FROM node:20-alpine AS builder
 
 WORKDIR /app
 
-# শুধু package ফাইলগুলো কপি করে dependency install
-COPY package*.json ./
+# sharp বা অন্য native dependencies এর জন্য
+RUN apk add --no-cache libc6-compat
 
+# Dependencies install
+COPY package*.json ./
 RUN npm i --force
 
-# এখন পুরো প্রজেক্ট কপি
+# Source কপি
 COPY . .
 
-# Next.js build
+# Build
 RUN npm run build
 
 
@@ -21,20 +23,18 @@ FROM node:20-alpine AS runner
 
 WORKDIR /app
 
+RUN apk add --no-cache libc6-compat
+
 ENV NODE_ENV=production
 
-# Production dependencies ইনস্টল করার জন্য package ফাইল কপি
 COPY package*.json ./
-RUN npm ci --omit=dev
+RUN npm install --omit=dev
 
-# Build output এবং public assets কপি
 COPY --from=builder /app/.next ./.next
 COPY --from=builder /app/public ./public
 COPY --from=builder /app/next.config.js ./
 COPY --from=builder /app/package.json ./
 
-# Next.js ডিফল্ট পোর্ট
 EXPOSE 8113
 
-# Container start হলে এই কমান্ড চলবে
 CMD ["npm", "start"]
