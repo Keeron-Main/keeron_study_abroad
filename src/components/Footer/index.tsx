@@ -27,8 +27,7 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
+                  Join 60,000+ learners who trust Keeron for their future. Book your free session today.
                 </p>
                 <div className="flex items-center">
                   <a
@@ -123,14 +122,14 @@ const Footer = () => {
                       Blog
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Pricing
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link
                       href="/about"
@@ -154,7 +153,7 @@ const Footer = () => {
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      TOS
+                      Contact
                     </Link>
                   </li>
                   <li>
@@ -162,17 +161,17 @@ const Footer = () => {
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Privacy Policy
+                      Study Destination
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Refund Policy
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -183,20 +182,20 @@ const Footer = () => {
                   Support & Help
                 </h2>
                 <ul>
-                  <li>
+                  {/* <li>
                     <Link
                       href="/contact"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Open Support Ticket
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Terms of Use
+                      Contact
                     </Link>
                   </li>
                   <li>
@@ -215,23 +214,23 @@ const Footer = () => {
           <div className="h-px w-full bg-linear-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
-              Template by{" "}
+              Developed by{" "}
               <a
-                href="http://uideck.com"
+                href="https://keeron.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-primary"
               >
-                UIdeck
+                Keeron
               </a>{" "}
               and{" "}
               <a
-                href="https://nextjstemplates.com"
+                href="https://celestialinvention.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-primary"
               >
-                Next.js Templates
+                Celestial Invention
               </a>
             </p>
           </div>
