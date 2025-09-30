@@ -32,8 +32,8 @@ export default function Video() {
             center
             mb="80px"
           />
-          <div className="mx-[-12px] flex flex-wrap">
-            <div>
+          <div className="mx-[-12px] flex flex-wrap justify-center">
+            <div className="flex flex-col">
               <List text="O & A and HSC Students → international undergraduate programs" />
               <List text="Graduates → master’s, MBAs, professional programs" />
               <List text="Working professionals → upskilling & international certifications" />
