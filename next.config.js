@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  reactStrictMode: true,
+  basePath: '/job_board',
+  output: 'standalone',
   images: {
     remotePatterns: [
       {

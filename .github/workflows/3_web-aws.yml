@@ -32,8 +32,6 @@ on:
         required: true
       AWS_ROLE:
         required: true 
-      AWS_CLOUDFRONT_DISTRIBUTION_ID:
-        required: true 
 env:
   SERVICE_TYPE: 'webclient'
 
