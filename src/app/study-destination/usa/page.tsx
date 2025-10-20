@@ -108,7 +108,7 @@ const UsaPage = () => {
                                     <div className="mb-10 w-full overflow-hidden rounded-sm">
                                         <div className="relative aspect-97/60 w-full sm:aspect-97/44">
                                             <Image
-                                                src="/images/blog/blog-details-02.jpg"
+                                                src="/images/StudyDestination/USA.webp"
                                                 alt="image"
                                                 fill
                                                 className="object-cover object-center"
