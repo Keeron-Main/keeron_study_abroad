@@ -9,7 +9,7 @@ const testimonialData: Testimonial[] = [
     designation: "Founder @TailGrids",
     content:
       "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/Reviewer DP/female.webp",
+    image: "/images/ReviewerDP/female.webp",
     star: 5,
   },
   {
@@ -18,7 +18,7 @@ const testimonialData: Testimonial[] = [
     designation: "Founder @UIdeck",
     content:
       "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/Reviewer DP/male01.webp",
+    image: "/images/ReviewerDP/male01.webp",
     star: 5,
   },
   {
@@ -27,7 +27,7 @@ const testimonialData: Testimonial[] = [
     designation: "Founder @Lineicons",
     content:
       "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/Reviewer DP/male02.webp",
+    image: "/images/ReviewerDP/male02.webp",
     star: 5,
   },
 ];
