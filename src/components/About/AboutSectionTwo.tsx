@@ -68,10 +68,10 @@ const AboutSectionTwo = () => {
 
               <div className="mb-7">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Arrival Support
+                  Post Arrival Support
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Arrival Support – Stay connected with alumni & Keeron global community
+                  Stay connected with alumni & Keeron global community
                 </p>
               </div>
             </div>

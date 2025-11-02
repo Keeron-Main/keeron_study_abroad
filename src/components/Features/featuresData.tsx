@@ -3,7 +3,7 @@ import { Feature } from "@/types/feature";
 const featuresData: Feature[] = [
   {
     id: 1,
-    image: "/images/OurServices_icon/icon 02_Admission Counselling.png",
+    image: "/images/OurServices_icon/icon 02_Admission Counselling.svg",
     icon:
       (
         <svg width="40" height="41" viewBox="0 0 40 41" className="fill-current">
@@ -20,7 +20,7 @@ const featuresData: Feature[] = [
   },
   {
     id: 2,
-    image: "/images/OurServices_icon/icon 02_Admission Counselling copy 4.png",
+    image: "/images/OurServices_icon/icon 02_Admission Counselling copy 4.svg",
     icon: (
       <svg width="40" height="40" viewBox="0 0 40 40" className="fill-current">
         <path
@@ -36,7 +36,7 @@ const featuresData: Feature[] = [
   },
   {
     id: 3,
-    image: "/images/OurServices_icon/icon 02_Admission Counselling copy 3.png",
+    image: "/images/OurServices_icon/icon 02_Admission Counselling copy 3.svg",
     icon: (
       <svg width="40" height="40" viewBox="0 0 40 40" className="fill-current">
         <path
@@ -52,7 +52,7 @@ const featuresData: Feature[] = [
   },
   {
     id: 4,
-    image: "/images/OurServices_icon/icon 02_Admission Counselling copy 5.png",
+    image: "/images/OurServices_icon/icon 02_Admission Counselling copy 5.svg",
     icon: (
       <svg width="40" height="42" viewBox="0 0 40 42" className="fill-current">
         <path
@@ -68,7 +68,7 @@ const featuresData: Feature[] = [
   },
   {
     id: 5,
-    image: "/images/OurServices_icon/icon 02_Admission Counselling copy 2.png",
+    image: "/images/OurServices_icon/icon 02_Admission Counselling copy 2.svg",
     icon: (
       <svg width="40" height="40" viewBox="0 0 40 40" className="fill-current">
         <path
@@ -84,7 +84,7 @@ const featuresData: Feature[] = [
   },
   {
     id: 6,
-    image: "/images/OurServices_icon/icon 02_Admission Counselling copy.png",
+    image: "/images/OurServices_icon/icon 02_Admission Counselling copy.svg",
     icon: (
       <svg width="40" height="45" viewBox="0 0 40 45" className="fill-current">
         <path

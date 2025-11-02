@@ -5,28 +5,28 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "Nafisa Rahman",
+    designation: "MSc in Marketing, University of Leeds",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Keeron’s counselling made my dream of studying in the UK possible. Their free support and scholarship guidance made everything so much easier.",
     image: "/images/ReviewerDP/female.webp",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "Arif Chowdhury",
+    designation: "BSc in Computer Science, University of Toronto",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "After completing Keeron’s IELTS MasterCourse, I received step-by-step guidance on choosing the right course and university. Today, I am studying in Canada.",
     image: "/images/ReviewerDP/male01.webp",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "Sadia Karim",
+    designation: "Bachelor of Nursing, Monash University",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "The visa process always felt overwhelming, but Keeron’s team guided me through every detail. Thanks to them, I am now pursuing my degree in Australia.",
     image: "/images/ReviewerDP/male02.webp",
     star: 5,
   },
