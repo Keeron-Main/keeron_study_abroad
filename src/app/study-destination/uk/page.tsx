@@ -84,7 +84,7 @@ const UkPage = () => {
 
 
                                     <h3 className="font-xl mb-10 leading-tight font-bold text-black sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight dark:text-white">
-                                        Living & lifestyle details— what to expect
+                                        Living & lifestyle details — what to expect
                                     </h3>
                                     <p className="text-body-color mb-10 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                                         Life in the UK varies by location: a small university town will feel very different from central London. Expect vibrant campus communities, strong student support (health, counselling, careers), and easy access to cultural life across music, food, arts, and sport. Practical highlights:

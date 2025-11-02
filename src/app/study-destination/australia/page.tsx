@@ -79,7 +79,7 @@ const AustraliaPage = () => {
 
 
                                     <h3 className="font-xl mb-10 leading-tight font-bold text-black sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight dark:text-white">
-                                        Living & lifestyle details— what to expect
+                                        Living & lifestyle details — what to expect
                                     </h3>
                                     <p className="text-body-color mb-10 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                                         The cost of living in Australia varies depending on the city and lifestyle choices. On average, international students should budget between AUD 1,400 to AUD 2,500 per month for living expenses, including accommodation, food, transportation, and other essentials.

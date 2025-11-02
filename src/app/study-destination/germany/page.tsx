@@ -84,7 +84,7 @@ const GermanyPage = () => {
 
 
                                     <h3 className="font-xl mb-10 leading-tight font-bold text-black sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight dark:text-white">
-                                        Living & lifestyle details— what to expect
+                                        Living & lifestyle details — what to expect
                                     </h3>
                                     <p className="text-body-color mb-10 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                                         Germany offers a high standard of living with a balanced lifestyle. The average monthly living expenses for students range between €850 and €1,500, depending on the city and personal lifestyle. Major cities like Munich, Frankfurt, and Berlin offer vibrant student life, with numerous cultural events, restaurants, and recreational activities. Public transportation is efficient and affordable, making it easy to explore the country.
