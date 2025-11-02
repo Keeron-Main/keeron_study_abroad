@@ -17,13 +17,13 @@ const AboutSectionTwo = () => {
               data-wow-delay=".15s"
             >
               <Image
-                src="/images/about/about-image-2.svg"
+                src="/images/about/HowItWorksStudentJourney.webp"
                 alt="about image"
                 fill
                 className="drop-shadow-three dark:hidden dark:drop-shadow-none"
               />
               <Image
-                src="/images/about/about-image-2-dark.svg"
+                src="/images/about/HowItWorksStudentJourney.webp"
                 alt="about image"
                 fill
                 className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
@@ -68,10 +68,10 @@ const AboutSectionTwo = () => {
 
               <div className="mb-7">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Post
+                  Post Arrival Support
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  arrival Support – Stay connected with alumni & Keeron global community
+                  Stay connected with alumni & Keeron global community
                 </p>
               </div>
             </div>

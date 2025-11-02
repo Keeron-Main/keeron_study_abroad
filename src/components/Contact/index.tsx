@@ -14,7 +14,7 @@ const Contact = () => {
               "
             >
               <SectionTitle
-                title="Call to Action"
+                title="Start Your Study Abroad Journey Today"
                 paragraph="If you&apos;re ready to explore your study abroad options, simply book your free consultation today. Let&apos;s talk about where you want to study, what your goals are, and how Keeron Study Abroad can help you get there — step by step, together."
                 center
               />

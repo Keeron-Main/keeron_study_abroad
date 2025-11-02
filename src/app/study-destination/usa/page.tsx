@@ -108,7 +108,7 @@ const UsaPage = () => {
                                     <div className="mb-10 w-full overflow-hidden rounded-sm">
                                         <div className="relative aspect-97/60 w-full sm:aspect-97/44">
                                             <Image
-                                                src="/images/blog/blog-details-02.jpg"
+                                                src="/images/StudyDestination/USA.webp"
                                                 alt="image"
                                                 fill
                                                 className="object-cover object-center"
@@ -159,7 +159,7 @@ const UsaPage = () => {
                                     </ul>
 
                                     <h3 className="font-xl mb-10 leading-tight font-bold text-black sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight dark:text-white">
-                                        Living & lifestyle details— what to expect
+                                        Living & lifestyle details — what to expect
                                     </h3>
                                     <p className="text-body-color mb-10 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                                         Life in the U.S. varies by city and region. Campus towns are often student-friendly and affordable; large cities offer broader job markets but higher living costs.

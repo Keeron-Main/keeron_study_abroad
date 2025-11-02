@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5 5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #003a4d;
+      }
+
+      .cls-2 {
+        fill: #082442;
+      }
+
+      .cls-3 {
+        fill: #594640;
+      }
+
+      .cls-4 {
+        fill: #ffce31;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M.99,2.36v.55c0,1.13,3.03,1.13,3.03,0v-.55H.99Z"/>
+  <polygon class="cls-2" points="4.9 1.98 2.5 3.06 .1 1.98 2.5 .9 4.9 1.98"/>
+  <path class="cls-4" d="M2.49,1.93c-.37.17-1.17.53-1.2.54-.02,0-.03.03-.03.05v.54c0,.07.08.07.08,0v-.5c.36-.16,1.14-.51,1.17-.53.05-.02.03-.12-.02-.1Z"/>
+  <ellipse class="cls-4" cx="1.3" cy="3.06" rx=".15" ry=".2"/>
+  <path class="cls-4" d="M1.3,4.1c.08,0,.15-.04.15-.1v-.94h-.3v.94c0,.05.07.1.15.1Z"/>
+  <path class="cls-3" d="M1.4,3.08s-.01,0-.02.01v1s.01,0,.02,0v-1Z"/>
+  <path class="cls-3" d="M1.34,3.11s-.01,0-.02,0v.99s.01,0,.02,0v-.99Z"/>
+  <path class="cls-3" d="M1.27,3.11s-.01,0-.02,0v.99s.01,0,.02,0v-.99Z"/>
+  <path class="cls-3" d="M1.21,3.09s-.01,0-.02-.01v1s.01,0,.02,0v-1Z"/>
+</svg>

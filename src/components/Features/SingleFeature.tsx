@@ -1,12 +1,14 @@
 import { Feature } from "@/types/feature";
+import Image from "next/image";
 
 const SingleFeature = ({ feature }: { feature: Feature }) => {
-  const { icon, title, paragraph } = feature;
+  const { icon, image, title, paragraph } = feature;
   return (
     <div className="w-full">
       <div className="wow fadeInUp" data-wow-delay=".15s">
         <div className="bg-primary/10 text-primary mb-10 flex h-[70px] w-[70px] items-center justify-center rounded-md">
-          {icon}
+          {/* {icon} */}
+          <Image src={image} alt={title} width={70} height={70} />
         </div>
         <h3 className="mb-5 text-xl font-bold text-black sm:text-2xl lg:text-xl xl:text-2xl dark:text-white">
           {title}
