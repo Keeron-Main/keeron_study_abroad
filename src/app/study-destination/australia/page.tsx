@@ -18,7 +18,7 @@ const AustraliaPage = () => {
                     <div className="-mx-4 flex flex-wrap justify-center">
                         <div className="w-full px-4 lg:w-8/12">
                             <div>
-                                <h2 className="mb-8 text-3xl leading-tight font-bold text-black sm:text-4xl sm:leading-tight dark:text-white">
+                                <h2 className="mb-8 text-3xl leading-tight font-bold text-black sm:text-4xl sm:leading-tight ">
                                     Australia
                                 </h2>
                                 <div>
@@ -47,14 +47,14 @@ const AustraliaPage = () => {
                                         aliquet porttitor. Odio pellentesque diam volutpat commodo
                                         sed.
                                     </p> */}
-                                    <h3 className="font-xl mb-10 leading-tight font-bold text-black sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight dark:text-white">
+                                    <h3 className="font-xl mb-10 leading-tight font-bold text-black sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight ">
                                         Career opportunities after graduation
                                     </h3>
                                     <p className="text-body-color mb-10 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                                         Australia offers robust post-graduation work opportunities through the Temporary Graduate visa (subclass 485). Graduates can stay and work in Australia for up to three years, depending on their qualification and field of study. This visa allows international students to gain valuable work experience and potentially transition to permanent residency.
                                     </p>
 
-                                    <h3 className="font-xl mb-10 leading-tight font-bold text-black sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight dark:text-white">
+                                    <h3 className="font-xl mb-10 leading-tight font-bold text-black sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight ">
                                         Scholarships & funding options
                                     </h3>
                                     <p className="text-body-color mb-10 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
@@ -78,7 +78,7 @@ const AustraliaPage = () => {
 
 
 
-                                    <h3 className="font-xl mb-10 leading-tight font-bold text-black sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight dark:text-white">
+                                    <h3 className="font-xl mb-10 leading-tight font-bold text-black sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight ">
                                         Living & lifestyle details — what to expect
                                     </h3>
                                     <p className="text-body-color mb-10 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">

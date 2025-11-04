@@ -33,13 +33,13 @@ const HomeSOP = () => {
                 src="/images/about/StatementofPurposeSOP&RecommendationLetters.webp"
                 alt="about image"
                 fill
-                className="drop-shadow-three dark:hidden dark:drop-shadow-none"
+                className="drop-shadow-three"
               />
               <Image
                 src="/images/about/StatementofPurposeSOP&RecommendationLetters.webp"
                 alt="about image"
                 fill
-                className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
+                className="hidden drop-shadow-three"
               />
             </div>
           </div>

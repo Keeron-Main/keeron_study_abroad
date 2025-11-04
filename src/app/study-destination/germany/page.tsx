@@ -18,7 +18,7 @@ const GermanyPage = () => {
                     <div className="-mx-4 flex flex-wrap justify-center">
                         <div className="w-full px-4 lg:w-8/12">
                             <div>
-                                <h2 className="mb-8 text-3xl leading-tight font-bold text-black sm:text-4xl sm:leading-tight dark:text-white">
+                                <h2 className="mb-8 text-3xl leading-tight font-bold text-black sm:text-4xl sm:leading-tight ">
                                     Germany
                                 </h2>
                                 <div>
@@ -42,21 +42,21 @@ const GermanyPage = () => {
                                     </p>
                                     {/* <p className="text-body-color mb-10 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                                         Semper auctor neque vitae tempus quam pellentesque nec.
-                                        <span className="text-primary underline dark:text-white">
+                                        <span className="text-primary underline ">
                                             Amet dictum sit amet justo
                                         </span>
                                         donec enim diam. Varius sit amet mattis vulputate enim nulla
                                         aliquet porttitor. Odio pellentesque diam volutpat commodo
                                         sed.
                                     </p> */}
-                                    <h3 className="font-xl mb-10 leading-tight font-bold text-black sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight dark:text-white">
+                                    <h3 className="font-xl mb-10 leading-tight font-bold text-black sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight ">
                                         Career opportunities after graduation
                                     </h3>
                                     <p className="text-body-color mb-10 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                                         Germany&apos;s robust economy and demand for skilled professionals create abundant career opportunities for graduates. International students can benefit from an 18-month residence permit post-graduation to seek employment. The country&apos;s strong industrial sectors, including automotive, engineering, information technology, and healthcare, offer diverse job prospects. Proficiency in the German language enhances employability, although many companies also operate in English.
                                     </p>
 
-                                    <h3 className="font-xl mb-10 leading-tight font-bold text-black sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight dark:text-white">
+                                    <h3 className="font-xl mb-10 leading-tight font-bold text-black sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight ">
                                         Scholarships & funding options
                                     </h3>
                                     <p className="text-body-color mb-10 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
@@ -83,7 +83,7 @@ const GermanyPage = () => {
 
 
 
-                                    <h3 className="font-xl mb-10 leading-tight font-bold text-black sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight dark:text-white">
+                                    <h3 className="font-xl mb-10 leading-tight font-bold text-black sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight ">
                                         Living & lifestyle details — what to expect
                                     </h3>
                                     <p className="text-body-color mb-10 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
