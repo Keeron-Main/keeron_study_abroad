@@ -22,17 +22,17 @@ export default function RootLayout({
       <head />
 
       {/* <body className={`bg-[#FCFCFC] dark:bg-black ${inter.className}`}> */}
-      <body className={`bg-[#FCFCFC] dark:bg-black ${inter.className}`}>
-        <Providers>
+      <body className={`bg-[#FCFCFC] ${inter.className}`}>
+        <>
           <Header />
           {children}
           <Footer />
           <ScrollToTop />
-        </Providers>
+        </>
       </body>
     </html>
   );
 }
 
-import { Providers } from "./providers";
+// import { Providers } from "./providers";
 
