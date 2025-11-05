@@ -37,8 +37,8 @@ const Testimonials = () => {
     <section className="bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="What Our Students Say About Keeron"
+          paragraph="Real stories of Bangladeshi learners achieving global success with Keeron’s guidance."
           center
         />
 
