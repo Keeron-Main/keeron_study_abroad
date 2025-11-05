@@ -33,17 +33,17 @@ const Hero = () => {
             </div>
           </div>
         </div>
-       
-       <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
-            <div className="relative w-full h-[400px]">
-      <Image src={Rimg}/>
-    </div>
-     </div>
-        
+
+        <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
+          <div className="relative w-full h-[400px]">
+            <Image src={Rimg} alt={""} />
+          </div>
+        </div>
+
         <div className="absolute left-0 z-[-1] opacity-30 lg:opacity-100">
-           <div className="relative w-full h-[400px]">
-      <Image src={Limg}/>
-    </div>
+          <div className="relative w-full h-[400px]">
+            <Image src={Limg} alt={""} />
+          </div>
         </div>
       </section>
     </>
