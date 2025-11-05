@@ -14,19 +14,19 @@ const testimonialData: Testimonial[] = [
   },
   {
     id: 2,
-    name: "Arif Chowdhury",
-    designation: "BSc in Computer Science, University of Toronto",
+    name: "Sadia Karim",
+    designation: "Bachelor of Nursing, Monash University",
     content:
-      "After completing Keeron’s IELTS MasterCourse, I received step-by-step guidance on choosing the right course and university. Today, I am studying in Canada.",
+      "The visa process always felt overwhelming, but Keeron’s team guided me through every detail. Thanks to them, I am now pursuing my degree in Australia.",
     image: "/images/ReviewerDP/male01.webp",
     star: 5,
   },
   {
     id: 3,
-    name: "Sadia Karim",
-    designation: "Bachelor of Nursing, Monash University",
+    name: "Arif Chowdhury",
+    designation: "BSc in Computer Science, University of Toronto",
     content:
-      "The visa process always felt overwhelming, but Keeron’s team guided me through every detail. Thanks to them, I am now pursuing my degree in Australia.",
+      "After completing Keeron’s IELTS MasterCourse, I received step-by-step guidance on choosing the right course and university. Today, I am studying in Canada.",
     image: "/images/ReviewerDP/male02.webp",
     star: 5,
   },

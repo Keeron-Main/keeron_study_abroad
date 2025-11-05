@@ -16,7 +16,7 @@ const featuresData: Feature[] = [
       ),
     title: "Admission Counselling & Course Selection",
     paragraph:
-      "Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.",
+      "Get expert advice to choose the right course and university that matches your academic background and career goals.",
   },
   {
     id: 2,
@@ -32,7 +32,7 @@ const featuresData: Feature[] = [
     ),
     title: "Scholarship Guidance & Application",
     paragraph:
-      "Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.",
+      "Find the best scholarships for you and get complete support in preparing and submitting successful applications.",
   },
   {
     id: 3,
@@ -48,7 +48,7 @@ const featuresData: Feature[] = [
     ),
     title: "Visa Guidance & Documentation",
     paragraph:
-      "Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.",
+      "Step-by-step help with visa requirements, document preparation, and interview training to make your journey stress-free.",
   },
   {
     id: 4,
@@ -64,7 +64,7 @@ const featuresData: Feature[] = [
     ),
     title: "Pre-departure Briefing & Health Insurance",
     paragraph:
-      "Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.",
+      "Stay prepared with travel tips, accommodation guidance, and affordable health insurance tailored for international students.",
   },
   {
     id: 5,
@@ -80,7 +80,7 @@ const featuresData: Feature[] = [
     ),
     title: "SOP (Statement of Purpose) & Recommendation Letters",
     paragraph:
-      "Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.",
+      "Craft compelling SOPs and strong recommendation letters reviewed by experts to stand out in your applications.",
   },
   {
     id: 6,
@@ -96,7 +96,7 @@ const featuresData: Feature[] = [
     ),
     title: "Education Loan & Money Transfer Assistance",
     paragraph:
-      "Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.",
+      "Guidance on student loans, tuition payment options, and secure international money transfers for financial peace of mind.",
   },
 ];
 export default featuresData;
