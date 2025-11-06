@@ -75,10 +75,10 @@ const Contact = () => {
 
                 </div>
                 <div className="flex justify-center items-center mt-8 space-x-4">
-                  <button className="rounded-xs bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90">
+                  <button className="rounded-xs bg-[#64d95f] px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-[#64d95f]/90">
                     <a href="tel:+8801322890096">Call Us (+8801322890096)</a>
                   </button>
-                  <button className="rounded-xs bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90">
+                  <button className="rounded-xs bg-[#64d95f] px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-[#64d95f]/90">
                     <a href="mailto:hello@keeron.com">Email Us (hello@keeron.com)</a>
                   </button>
                 </div>

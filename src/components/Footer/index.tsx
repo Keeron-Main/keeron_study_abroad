@@ -31,7 +31,7 @@ const Footer = () => {
                 </p>
                 <div className="flex items-center">
                   <a
-                    href="/"
+                    href="https://www.facebook.com/keeronofficial"
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -51,7 +51,7 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="/"
+                    href="https://www.instagram.com/keeronofficial/"
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -73,7 +73,7 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="/"
+                    href="https://www.youtube.com/@Keeronofficial"
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -89,7 +89,7 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="/"
+                    href="https://www.linkedin.com/company/keeronofficial/"
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -116,18 +116,18 @@ const Footer = () => {
                 <ul>
                   <li>
                     <Link
-                      href="/blog"
+                      href="https://keeron.com/courses"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary"
                     >
-                      Blog
+                      Courses
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/about"
+                      href="https://keeron.com/blogs"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary"
                     >
-                      About
+                      Blog
                     </Link>
                   </li>
                 </ul>
@@ -142,18 +142,18 @@ const Footer = () => {
                 <ul>
                   <li>
                     <Link
-                      href="/"
+                      href="https://keeron.com/terms-and-conditions"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary"
                     >
-                      Contact
+                      Terms & Conditions
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/"
+                      href="https://keeron.com/privacy-policy"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary"
                     >
-                      Study Destination
+                      Privacy Policy
                     </Link>
                   </li>
                 </ul>
@@ -168,20 +168,21 @@ const Footer = () => {
                 <ul>
                   <li>
                     <Link
-                      href="/"
+                      href="/about"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary"
                     >
-                      Contact
+                      About Us
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/about"
+                      href="/contact"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary"
                     >
-                      About
+                      Contact Us
                     </Link>
                   </li>
+
                 </ul>
               </div>
             </div>
